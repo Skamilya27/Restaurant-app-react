@@ -12,7 +12,8 @@ function MealItem(props) {
         <div className={classes.price}>{price}</div>
       </div>
       <div>
-
+        <div className={classes.amt}>Amount</div>
+        <button className={classes.cartBtn}>+Add</button>
       </div>
     </li>
   );
