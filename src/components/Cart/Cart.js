@@ -8,7 +8,7 @@ function Cart(props) {
   )}</ul>
 
   return (
-    <Modal onCLose={props.onCLose}>
+    <Modal onClose={props.onClose}>
       {cartItems}
       <div className={classes.total}>
         <span>Total Amount</span>
